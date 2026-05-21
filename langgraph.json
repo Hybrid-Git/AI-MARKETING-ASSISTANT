@@ -1,0 +1,11 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "main": "main_graph:parent",
+    "sub": "sub_graph:child"
+  },
+  "env": ".env",
+  "dependencies": [
+    "."
+  ]
+}
